@@ -1,0 +1,63 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/static/index.html"
+  status = 200
+
+# The app is a browser-routed SPA. Keep known tool URLs on the shared shell.
+[[redirects]]
+  from = "/notes"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/calendar"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/cookbook"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/email"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/memory"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/gallery"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/tasks"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/library"
+  to = "/static/index.html"
+  status = 200
+[[redirects]]
+  from = "/login"
+  to = "/static/login.html"
+  status = 200
+[[redirects]]
+  from = "/privacy"
+  to = "/static/privacy.html"
+  status = 200
+[[redirects]]
+  from = "/terms"
+  to = "/static/terms.html"
+  status = 200
+[[redirects]]
+  from = "/thank-you"
+  to = "/static/thank-you.html"
+  status = 200
+
+# Keep the custom 404 page for genuinely unknown paths.
+[[redirects]]
+  from = "/*"
+  to = "/static/404.html"
+  status = 404
