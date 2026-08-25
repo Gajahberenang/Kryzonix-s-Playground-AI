@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Kryzonix's Playground workspace</title>
+  <desc id="desc">A preview of the Kryzonix's Playground AI workspace with a command deck layout.</desc>
+  <rect width="1400" height="820" rx="26" fill="#071317"/>
+  <rect x="24" y="24" width="1352" height="772" rx="18" fill="#0d2025" stroke="#2a4b4d" stroke-width="2"/>
+  <rect x="24" y="24" width="240" height="772" rx="18" fill="#08191d"/>
+  <path d="M264 24h1112v772H264z" fill="#102328"/>
+  <path d="M264 24h1112" stroke="#2a4b4d" stroke-width="2"/>
+  <path d="M80 112h126M80 168h104M80 224h142M80 280h115" stroke="#315b5c" stroke-width="12" stroke-linecap="round"/>
+  <path d="M62 55h34v42l40-42h38l-39 45 42 45h-39l-42-46v46H62z" fill="#27c7c9"/>
+  <circle cx="174" cy="59" r="7" fill="#f6c85f"/>
+  <text x="62" y="350" fill="#f6c85f" font-family="Georgia,serif" font-size="25" font-weight="700">Kryzonix's</text>
+  <text x="62" y="382" fill="#9caeb6" font-family="Arial,sans-serif" font-size="17" letter-spacing="2">PLAYGROUND</text>
+  <text x="322" y="91" fill="#9caeb6" font-family="Arial,sans-serif" font-size="16" letter-spacing="2">COMMAND DECK / READY</text>
+  <circle cx="1298" cy="88" r="8" fill="#27c7c9"/>
+  <text x="322" y="190" fill="#edf7f5" font-family="Georgia,serif" font-size="50" font-weight="700">What are we making?</text>
+  <text x="326" y="232" fill="#9caeb6" font-family="Arial,sans-serif" font-size="21">A private place for ideas to become useful things.</text>
+  <rect x="322" y="300" width="300" height="170" rx="14" fill="#132d31" stroke="#2a4b4d"/>
+  <rect x="650" y="300" width="300" height="170" rx="14" fill="#172832" stroke="#2a4b4d"/>
+  <rect x="978" y="300" width="300" height="170" rx="14" fill="#30252c" stroke="#60404a"/>
+  <text x="350" y="346" fill="#27c7c9" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">01 / THINK</text>
+  <text x="678" y="346" fill="#f6c85f" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">02 / BUILD</text>
+  <text x="1006" y="346" fill="#f2768e" font-family="Arial,sans-serif" font-size="15" letter-spacing="2">03 / SHIP</text>
+  <path d="M350 390h190M678 390h190M1006 390h190" stroke="#638487" stroke-width="10" stroke-linecap="round"/>
+  <path d="M350 420h124M678 420h154M1006 420h98" stroke="#315b5c" stroke-width="10" stroke-linecap="round"/>
+  <rect x="322" y="570" width="956" height="116" rx="18" fill="#08191d" stroke="#27c7c9" stroke-width="2"/>
+  <text x="352" y="620" fill="#6e9295" font-family="Arial,sans-serif" font-size="19">Drop a thought, question, file, or half-formed plan here...</text>
+  <circle cx="1220" cy="628" r="26" fill="#f6c85f"/>
+  <path d="M1210 628h20M1220 618v20" stroke="#071317" stroke-width="4" stroke-linecap="round"/>
+</svg>
