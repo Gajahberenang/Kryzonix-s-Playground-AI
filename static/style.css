@@ -58,15 +58,15 @@
   /* Core palette */
   /* 60% primary: near-black surfaces, 30% secondary: graphite panels,
      10% accent: purple interaction color. */
-  --bg: #0b0d12;
-  --fg: #e8e7ee;
-  --panel: #1a1d27;
-  --border: #303442;
-  --red: #a855f7;
-  --accent: #a855f7;
-  --accent-primary: #a855f7;
-  --accent-error: #f06a8a;
-  --brand-color: #a855f7;
+  --bg: #071317;
+  --fg: #edf7f5;
+  --panel: #102328;
+  --border: #2a4b4d;
+  --red: #f2768e;
+  --accent: #27c7c9;
+  --accent-primary: #27c7c9;
+  --accent-error: #ff7188;
+  --brand-color: #f6c85f;
   --font-family: 'OpenDyslexic', sans-serif;
   /* Were `var(--green)` / `var(--warn)` — self-referential, so they
      resolved to invalid and every site fell back to its own literal
@@ -41175,4 +41175,43 @@ body.theme-frosted .modal {
 @media (max-width: 768px) {
   .compare-grid[data-cols] { grid-template-columns: 1fr !important; overflow-y: auto; }
   .compare-pane { min-height: 60dvh; }
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(circle at 76% 12%, rgba(39, 199, 201, .12), transparent 28%), linear-gradient(135deg, rgba(242, 118, 142, .04), transparent 42%);
+}
+
+.sidebar {
+  background: linear-gradient(180deg, #0d2529 0%, #081518 72%);
+  border-right: 1px solid #2a4b4d;
+}
+
+.sidebar-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(42, 75, 77, .7) !important;
+}
+
+.sidebar-brand-title {
+  color: #f6c85f;
+  font-family: Georgia, serif;
+  font-size: .92rem;
+  letter-spacing: .02em;
+}
+
+.welcome-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #edf7f5;
+  font-family: Georgia, serif;
+  letter-spacing: .02em;
+  text-shadow: 0 0 28px rgba(39, 199, 201, .22);
+}
+
+.welcome-mark {
+  width: 32px;
+  height: 32px;
+  color: #27c7c9;
+  filter: drop-shadow(0 0 8px rgba(39, 199, 201, .35));
 }
