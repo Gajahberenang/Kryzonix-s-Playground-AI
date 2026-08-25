@@ -41179,12 +41179,12 @@ body.theme-frosted .modal {
 
 body {
   background-color: var(--bg);
-  background-image: radial-gradient(circle at 76% 12%, rgba(39, 199, 201, .12), transparent 28%), linear-gradient(135deg, rgba(242, 118, 142, .04), transparent 42%);
+  background-image: none;
 }
 
 .sidebar {
-  background: linear-gradient(180deg, #0d2529 0%, #081518 72%);
-  border-right: 1px solid #2a4b4d;
+  background: #0d2025;
+  border-right: 1px solid #203b3d;
 }
 
 .sidebar-header {
@@ -41194,55 +41194,54 @@ body {
 
 .sidebar-brand-title {
   color: #f6c85f;
-  font-family: Georgia, serif;
-  font-size: .92rem;
-  letter-spacing: .02em;
+  font-family: inherit;
+  font-size: .86rem;
+  letter-spacing: 0;
 }
 
 .welcome-name {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   color: #edf7f5;
-  font-family: Georgia, serif;
-  letter-spacing: .02em;
-  text-shadow: 0 0 28px rgba(39, 199, 201, .22);
+  font-family: inherit;
+  letter-spacing: 0;
+  text-shadow: none;
 }
 
 .welcome-mark {
   width: 32px;
   height: 32px;
   color: #27c7c9;
-  filter: drop-shadow(0 0 8px rgba(39, 199, 201, .35));
+  filter: none;
 }
 
 #welcome-screen {
-  width: min(760px, calc(100vw - 48px));
-  padding: 32px 38px 34px;
-  border: 1px solid rgba(42, 75, 77, .8);
-  border-radius: 22px;
-  background: linear-gradient(145deg, rgba(13, 37, 41, .96), rgba(8, 21, 24, .96));
-  box-shadow: 20px 24px 0 rgba(4, 12, 14, .3), 0 20px 70px rgba(0, 0, 0, .24);
+  width: min(680px, calc(100vw - 48px));
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .chat-input-bar {
-  border: 1px solid #27c7c9;
-  border-radius: 18px;
-  background: #08191d;
-  box-shadow: 10px 10px 0 rgba(242, 118, 142, .14);
+  border: 1px solid #315457;
+  border-radius: 6px;
+  background: #0d2025;
+  box-shadow: none;
 }
 
 .chat-input-bar textarea#message {
-  min-height: 72px;
-  padding: 18px 20px;
+  min-height: 58px;
+  padding: 14px 16px;
 }
 
 .chat-top-bar {
-  border-bottom: 1px solid rgba(42, 75, 77, .7);
-  background: rgba(7, 19, 23, .72);
+  border-bottom: 1px solid #203b3d;
+  background: #071317;
 }
 
 @media (max-width: 600px) {
-  #welcome-screen { width: calc(100vw - 28px); padding: 24px 20px 26px; }
-  .chat-input-bar textarea#message { min-height: 58px; }
+  #welcome-screen { width: calc(100vw - 28px); }
 }
