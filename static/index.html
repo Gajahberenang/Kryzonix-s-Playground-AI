@@ -2554,5 +2554,13 @@
   ['welcome-cta','mobile-sticky-cta'].forEach(function(id){ var button=document.getElementById(id); if(button) button.addEventListener('click',focusComposer); });
 })();
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var currentMeta = document.getElementById('current-meta');
+    if (currentMeta && currentMeta.textContent === 'Odysseus Chat') {
+      currentMeta.textContent = "Kryzonix's Playground";
+    }
+  });
+</script>
 </body>
 </html>
