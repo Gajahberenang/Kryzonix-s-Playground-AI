@@ -286,7 +286,7 @@ function _deselectCurrentSession(sid) {
   if (currentSessionId !== sid) return;
   currentSessionId = null;
   uiModule.el('chat-history').innerHTML = '';
-  uiModule.el('current-meta').textContent = "Kryzonix's Playground";
+  uiModule.el('current-meta').textContent = 'New chat';
   Storage.remove('lastSessionId');
   history.replaceState(null, '', window.location.pathname);
   if (window.chatModule && window.chatModule.showWelcomeScreen) {
@@ -1918,7 +1918,7 @@ export async function selectSession(id, { keepSidebar = false, showLoading = tru
 
     const currentMetaEl = uiModule.el('current-meta');
     if (currentMetaEl) {
-      currentMetaEl.textContent = meta ? meta.name : "Kryzonix's Playground";
+      currentMetaEl.textContent = meta ? meta.name : 'New chat';
     }
     // Update model picker visibility
     updateModelPicker();
@@ -2239,7 +2239,7 @@ export function createDirectChat(url, modelId, endpointId, opts = {}) {
   // Update current-meta header
   const metaEl = document.getElementById('current-meta');
   if (metaEl) {
-    metaEl.textContent = 'New Chat';
+    metaEl.textContent = 'New chat';
   }
 
   // Enable input

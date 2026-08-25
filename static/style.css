@@ -41275,3 +41275,32 @@ body {
 @media (max-width: 600px) {
   #welcome-screen { width: calc(100vw - 28px); }
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: min(86vw, 320px) !important;
+    max-width: 320px;
+    box-shadow: 12px 0 28px rgba(0, 0, 0, .28);
+  }
+
+  .sidebar .list-item {
+    min-height: 44px;
+    padding: 10px 12px;
+  }
+
+  .sidebar .section-title {
+    padding-top: 18px;
+  }
+
+  .sidebar-brand-title {
+    font-size: .95rem;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .sidebar .list-item,
+  .sidebar button,
+  .sidebar a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
